@@ -1,0 +1,6 @@
+framework module Pods_HackIllinois__QRUITests {
+  umbrella header "Pods-HackIllinois: QRUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

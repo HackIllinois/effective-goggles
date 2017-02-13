@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2EFF3751D864194E8AAF57 /* Pods_HackIllinois__QRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B938DD4A3F3CC85BE83D48 /* Pods_HackIllinois__QRTests.framework */; };
+		3DA2A117F80259320E343F6A /* Pods_HackIllinois__QR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305529D902BF1604EEA51AF9 /* Pods_HackIllinois__QR.framework */; };
 		84EFA7471E51407B00424F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFA7461E51407B00424F8F /* AppDelegate.swift */; };
 		84EFA7491E51407B00424F8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFA7481E51407B00424F8F /* ViewController.swift */; };
 		84EFA74C1E51407B00424F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFA74A1E51407B00424F8F /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		84EFA7511E51407B00424F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFA74F1E51407B00424F8F /* LaunchScreen.storyboard */; };
 		84EFA75C1E51407B00424F8F /* HackIllinois__QRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFA75B1E51407B00424F8F /* HackIllinois__QRTests.swift */; };
 		84EFA7671E51407B00424F8F /* HackIllinois__QRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFA7661E51407B00424F8F /* HackIllinois__QRUITests.swift */; };
+		9FD6F966E2FC6C965CAEC88F /* Pods_HackIllinois__QRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711712B2774D359D64E879C /* Pods_HackIllinois__QRUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E7F3BDB0DCE1C2473FD9B63 /* Pods-HackIllinois: QR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR.debug.xcconfig"; sourceTree = "<group>"; };
+		19828B9AE97252FF2F7F9E1D /* Pods-HackIllinois: QRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QRUITests/Pods-HackIllinois: QRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2711712B2774D359D64E879C /* Pods_HackIllinois__QRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackIllinois__QRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		305529D902BF1604EEA51AF9 /* Pods_HackIllinois__QR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackIllinois__QR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		417B10D974E0A5876B5A6C99 /* Pods-HackIllinois: QRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QRTests/Pods-HackIllinois: QRTests.release.xcconfig"; sourceTree = "<group>"; };
+		66B938DD4A3F3CC85BE83D48 /* Pods_HackIllinois__QRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackIllinois__QRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B154F548C1D70B49E437A8B /* Pods-HackIllinois: QR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QR.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR.release.xcconfig"; sourceTree = "<group>"; };
 		84EFA7431E51407B00424F8F /* HackIllinois: QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackIllinois: QR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EFA7461E51407B00424F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EFA7481E51407B00424F8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		84EFA7621E51407B00424F8F /* HackIllinois: QRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackIllinois: QRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EFA7661E51407B00424F8F /* HackIllinois__QRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackIllinois__QRUITests.swift; sourceTree = "<group>"; };
 		84EFA7681E51407B00424F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C2DF3A72C75A3EAE3E25B3 /* Pods-HackIllinois: QRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QRUITests/Pods-HackIllinois: QRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6E65F5F5963EF17FB778F3 /* Pods-HackIllinois: QRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QRTests/Pods-HackIllinois: QRTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA2A117F80259320E343F6A /* Pods_HackIllinois__QR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2EFF3751D864194E8AAF57 /* Pods_HackIllinois__QRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD6F966E2FC6C965CAEC88F /* Pods_HackIllinois__QRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43432DA61C1C206D610EA4DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F3BDB0DCE1C2473FD9B63 /* Pods-HackIllinois: QR.debug.xcconfig */,
+				6B154F548C1D70B49E437A8B /* Pods-HackIllinois: QR.release.xcconfig */,
+				BC6E65F5F5963EF17FB778F3 /* Pods-HackIllinois: QRTests.debug.xcconfig */,
+				417B10D974E0A5876B5A6C99 /* Pods-HackIllinois: QRTests.release.xcconfig */,
+				96C2DF3A72C75A3EAE3E25B3 /* Pods-HackIllinois: QRUITests.debug.xcconfig */,
+				19828B9AE97252FF2F7F9E1D /* Pods-HackIllinois: QRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84EFA73A1E51407B00424F8F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				84EFA75A1E51407B00424F8F /* HackIllinois: QRTests */,
 				84EFA7651E51407B00424F8F /* HackIllinois: QRUITests */,
 				84EFA7441E51407B00424F8F /* Products */,
+				43432DA61C1C206D610EA4DD /* Pods */,
+				BC1DE19A3E2A77484E229435 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "HackIllinois: QRUITests";
 			sourceTree = "<group>";
 		};
+		BC1DE19A3E2A77484E229435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				305529D902BF1604EEA51AF9 /* Pods_HackIllinois__QR.framework */,
+				66B938DD4A3F3CC85BE83D48 /* Pods_HackIllinois__QRTests.framework */,
+				2711712B2774D359D64E879C /* Pods_HackIllinois__QRUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EFA76B1E51407B00424F8F /* Build configuration list for PBXNativeTarget "HackIllinois: QR" */;
 			buildPhases = (
+				F785D6966B64C0A558F658A2 /* [CP] Check Pods Manifest.lock */,
 				84EFA73F1E51407B00424F8F /* Sources */,
 				84EFA7401E51407B00424F8F /* Frameworks */,
 				84EFA7411E51407B00424F8F /* Resources */,
+				1339C757B9BEFBAC02BCB4FE /* [CP] Embed Pods Frameworks */,
+				8BE3495E98C67A5FE0DE32DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EFA76E1E51407B00424F8F /* Build configuration list for PBXNativeTarget "HackIllinois: QRTests" */;
 			buildPhases = (
+				FE0DBC2C3153478E5320B728 /* [CP] Check Pods Manifest.lock */,
 				84EFA7531E51407B00424F8F /* Sources */,
 				84EFA7541E51407B00424F8F /* Frameworks */,
 				84EFA7551E51407B00424F8F /* Resources */,
+				0A068B1BCF301F437DC6627A /* [CP] Embed Pods Frameworks */,
+				285FD74FBD7F37C88250873C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EFA7711E51407B00424F8F /* Build configuration list for PBXNativeTarget "HackIllinois: QRUITests" */;
 			buildPhases = (
+				B35095EE3B728CC72F793C83 /* [CP] Check Pods Manifest.lock */,
 				84EFA75E1E51407B00424F8F /* Sources */,
 				84EFA75F1E51407B00424F8F /* Frameworks */,
 				84EFA7601E51407B00424F8F /* Resources */,
+				05E7FF49BA0486F60038B4B9 /* [CP] Embed Pods Frameworks */,
+				C3B45443B5F4CD415CF24D8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E7FF49BA0486F60038B4B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackIllinois: QRUITests/Pods-HackIllinois: QRUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A068B1BCF301F437DC6627A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackIllinois: QRTests/Pods-HackIllinois: QRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1339C757B9BEFBAC02BCB4FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		285FD74FBD7F37C88250873C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackIllinois: QRTests/Pods-HackIllinois: QRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE3495E98C67A5FE0DE32DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35095EE3B728CC72F793C83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B45443B5F4CD415CF24D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackIllinois: QRUITests/Pods-HackIllinois: QRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F785D6966B64C0A558F658A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0DBC2C3153478E5320B728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84EFA73F1E51407B00424F8F /* Sources */ = {
@@ -358,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,10 +600,12 @@
 		};
 		84EFA76C1E51407B00424F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7F3BDB0DCE1C2473FD9B63 /* Pods-HackIllinois: QR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K37M6EZV7J;
 				INFOPLIST_FILE = "HackIllinois: QR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.ymosofi.HackIllinois--QR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +615,12 @@
 		};
 		84EFA76D1E51407B00424F8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B154F548C1D70B49E437A8B /* Pods-HackIllinois: QR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K37M6EZV7J;
 				INFOPLIST_FILE = "HackIllinois: QR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.ymosofi.HackIllinois--QR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +630,7 @@
 		};
 		84EFA76F1E51407B00424F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6E65F5F5963EF17FB778F3 /* Pods-HackIllinois: QRTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +646,7 @@
 		};
 		84EFA7701E51407B00424F8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417B10D974E0A5876B5A6C99 /* Pods-HackIllinois: QRTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +662,7 @@
 		};
 		84EFA7721E51407B00424F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C2DF3A72C75A3EAE3E25B3 /* Pods-HackIllinois: QRUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K37M6EZV7J;
@@ -483,6 +677,7 @@
 		};
 		84EFA7731E51407B00424F8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19828B9AE97252FF2F7F9E1D /* Pods-HackIllinois: QRUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K37M6EZV7J;
@@ -514,6 +709,7 @@
 				84EFA76D1E51407B00424F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84EFA76E1E51407B00424F8F /* Build configuration list for PBXNativeTarget "HackIllinois: QRTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +718,7 @@
 				84EFA7701E51407B00424F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84EFA7711E51407B00424F8F /* Build configuration list for PBXNativeTarget "HackIllinois: QRUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +727,7 @@
 				84EFA7731E51407B00424F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
