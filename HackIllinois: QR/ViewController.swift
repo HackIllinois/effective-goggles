@@ -23,20 +23,29 @@ class ViewController: UIViewController {
     let checksession_url = "https://api.hackillinois.org/v1/auth/reset"
     var login_session:String = ""
     
-    let scanner = QRCode()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         print("view loaded")
-        
+
+        /*
         scanner.prepareScan(view) { (stringValue) -> () in
             print(stringValue)
+            self.scanner.stopScan()
+            let alert = UIAlertController(title: "data", message: stringValue, preferredStyle: .alert)
+            let okayAction = UIAlertAction(title: "okay", style: .default) { [weak self] (_) in
+                self?.scanner.startScan()
+            }
+            alert.addAction(okayAction)
+            DispatchQueue.main.async { [weak self] in
+                self?.present(alert, animated: true) {
+                }
+            }
         }
         scanner.scanFrame = view.bounds
+        */
         
-//        email_input.text = "try@me.com"
-//        password_input.text = "test"
-        
+        /*
+        // Uncomment to save auth key between app opens
         let preferences = UserDefaults.standard
         if preferences.object(forKey: "session") != nil
         {
@@ -44,53 +53,51 @@ class ViewController: UIViewController {
             check_session(key: login_session)
             scanner.startScan()
         }
+        */
     }
     
     func logIn(email: String, password: String) {
-         let parameters: Parameters = [
-             "email": email,
-             "password": password
-         ]
-         
-         // Both calls are equivalent
-         Alamofire.request("https://api.hackillinois.org/v1/auth", method: .post,
-             parameters: parameters,
-             encoding: JSONEncoding.default).responseJSON { response in
-         //            print(response.request)  // original URL request
-         //            print(response.response) // HTTP URL response
-         //            print(response.data)     // server data
-         //            print(response.result)   // result of response serialization
-         
-             if let json = response.result.value {
-                 if let jsonDict = json as? [String: Any] {
-                     if let dataVal = jsonDict["data"] as? [String: Any] {
-                         if let authKey = dataVal["auth"] as? String {
-                            self.login_session = authKey
-                            let preferences = UserDefaults.standard
-                            preferences.set(authKey, forKey: "session")
-                            print(authKey)
-                            self.scanner.startScan()
-                         }
-                     }
-                 }
-             }
-         }
+        let preferences = UserDefaults.standard
+        if preferences.object(forKey: "session") != nil
+        {
+            login_session = preferences.object(forKey: "session") as! String
+            check_session(key: login_session)
+//            scanner.startScan()
+            performSegue(withIdentifier: "ShowScanner", sender: self)
+        }
+        else {
+            let parameters: Parameters = [
+                "email": email,
+                "password": password
+            ]
+            Alamofire.request("https://api.hackillinois.org/v1/auth", method: .post,
+                parameters: parameters,
+                encoding: JSONEncoding.default).responseJSON { [weak self] response in
+                if let json = response.result.value {
+                    if let jsonDict = json as? [String: Any] {
+                        if let dataVal = jsonDict["data"] as? [String: Any] {
+                            if let authKey = dataVal["auth"] as? String {
+                                self?.login_session = authKey
+                                let preferences = UserDefaults.standard
+                                preferences.set(authKey, forKey: "session")
+//                                print(authKey)
+//                                self.scanner.startScan()
+                                self?.performSegue(withIdentifier: "ShowScanner", sender: self)
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     
     func check_session(key: String) {
         let parameters: Parameters = [
             "Authorization": key
         ]
-        
-        // Both calls are equivalent
         Alamofire.request("https://api.hackillinois.org/v1/auth/refresh", method: .get,
           parameters: parameters,
           encoding: JSONEncoding.default).responseJSON { response in
-            //            print(response.request)  // original URL request
-            //            print(response.response) // HTTP URL response
-            //            print(response.data)     // server data
-            //            print(response.result)   // result of response serialization
-            
             if let json = response.result.value {
                 if let jsonDict = json as? [String: Any] {
                     if let dataVal = jsonDict["data"] as? [String: Any] {
@@ -98,13 +105,11 @@ class ViewController: UIViewController {
                             self.login_session = authKey
                             let preferences = UserDefaults.standard
                             preferences.set(authKey, forKey: "session")
-                            print(authKey)
                         }
                     }
                 }
             }
         }
-
     }
     
     

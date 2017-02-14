@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C2EFF3751D864194E8AAF57 /* Pods_HackIllinois__QRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B938DD4A3F3CC85BE83D48 /* Pods_HackIllinois__QRTests.framework */; };
 		3DA2A117F80259320E343F6A /* Pods_HackIllinois__QR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305529D902BF1604EEA51AF9 /* Pods_HackIllinois__QR.framework */; };
+		84C7D6CF1E5394110018AA46 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7D6CE1E5394110018AA46 /* ScanViewController.swift */; };
 		84EFA7471E51407B00424F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFA7461E51407B00424F8F /* AppDelegate.swift */; };
 		84EFA7491E51407B00424F8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFA7481E51407B00424F8F /* ViewController.swift */; };
 		84EFA74C1E51407B00424F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFA74A1E51407B00424F8F /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		417B10D974E0A5876B5A6C99 /* Pods-HackIllinois: QRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QRTests/Pods-HackIllinois: QRTests.release.xcconfig"; sourceTree = "<group>"; };
 		66B938DD4A3F3CC85BE83D48 /* Pods_HackIllinois__QRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackIllinois__QRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B154F548C1D70B49E437A8B /* Pods-HackIllinois: QR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackIllinois: QR.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR.release.xcconfig"; sourceTree = "<group>"; };
+		84C7D6CE1E5394110018AA46 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		84EFA7431E51407B00424F8F /* HackIllinois: QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackIllinois: QR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EFA7461E51407B00424F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EFA7481E51407B00424F8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				84EFA7461E51407B00424F8F /* AppDelegate.swift */,
 				84EFA7481E51407B00424F8F /* ViewController.swift */,
 				84EFA74A1E51407B00424F8F /* Main.storyboard */,
+				84C7D6CE1E5394110018AA46 /* ScanViewController.swift */,
 				84EFA74D1E51407B00424F8F /* Assets.xcassets */,
 				84EFA74F1E51407B00424F8F /* LaunchScreen.storyboard */,
 				84EFA7521E51407B00424F8F /* Info.plist */,
@@ -451,6 +454,7 @@
 			files = (
 				84EFA7491E51407B00424F8F /* ViewController.swift in Sources */,
 				84EFA7471E51407B00424F8F /* AppDelegate.swift in Sources */,
+				84C7D6CF1E5394110018AA46 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

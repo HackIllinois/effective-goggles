@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
+import SwiftQRCode
+import Alamofire
+import Foundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
