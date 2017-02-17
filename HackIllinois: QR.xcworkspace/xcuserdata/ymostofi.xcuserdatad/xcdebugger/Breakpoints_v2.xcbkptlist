@@ -101,11 +101,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HackIllinois: QR/ScanViewController.swift"
-            timestampString = "508795814.607108"
+            timestampString = "509007188.377517"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>

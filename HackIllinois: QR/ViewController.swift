@@ -11,6 +11,7 @@ import AVFoundation
 import SwiftQRCode
 import Alamofire
 import Foundation
+import SwiftyJSON
 
 class ViewController: UIViewController {
     @IBOutlet var email_input: UITextField!
@@ -61,9 +62,6 @@ class ViewController: UIViewController {
         if preferences.object(forKey: "session") != nil
         {
             login_session = preferences.object(forKey: "session") as! String
-            check_session(key: login_session)
-//            scanner.startScan()
-            performSegue(withIdentifier: "ShowScanner", sender: self)
         }
         else {
             let parameters: Parameters = [
@@ -80,12 +78,23 @@ class ViewController: UIViewController {
                                 self?.login_session = authKey
                                 let preferences = UserDefaults.standard
                                 preferences.set(authKey, forKey: "session")
-//                                print(authKey)
-//                                self.scanner.startScan()
-                                self?.performSegue(withIdentifier: "ShowScanner", sender: self)
                             }
                         }
                     }
+                }
+            }
+        }
+        check_session(key: login_session)
+        let role = check_permissions(key: login_session)
+        if (role == "SCAN" || role == "ALL") {
+            performSegue(withIdentifier: "ShowScanner", sender: self)
+        }
+        else {
+            let alert = UIAlertController(title: "Error", message: "Permissions error", preferredStyle: .alert)
+            let okayAction = UIAlertAction(title: "Okay", style: .default)
+            alert.addAction(okayAction)
+            DispatchQueue.main.async { [weak self] in
+                self?.present(alert, animated: true) {
                 }
             }
         }
@@ -112,6 +121,28 @@ class ViewController: UIViewController {
         }
     }
     
+    func check_permissions(key: String) -> String {
+        if let data = Data(base64Encoded: key.components(separatedBy: ".")[1]) {
+            let json = JSON(data)
+            // if voluteer, staff, or admin, they can scan
+            // if admin, they can also create events
+            let role = json["roles"].arrayValue[0]["role"].stringValue
+            if (role == "STAFF" || role == "VOLUNTEER") {
+                return "SCAN"
+            }
+            else if (role == "ADMIN")
+            {
+                return "ALL"
+            }
+            else {
+                return "NONE"
+            }
+        }
+        else {
+            return "NONE"
+        }
+    }
+    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -121,7 +152,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

@@ -7,7 +7,7 @@ target 'HackIllinois: QR' do
     
     pod 'SwiftQRCode'
     pod 'Alamofire'
-
+    pod 'SwiftyJSON'
 
     # Pods for HackIllinois: QR
     target 'HackIllinois: QRTests' do
