@@ -101,7 +101,7 @@ class ViewController: BaseViewController {
         
         
         //email_input.text = "yasha.mostofi+vol@gmail.com"
-        email_input.text = "yasha.mostofi@hackillinois.org"
+//        email_input.text = "yasha.mostofi@hackillinois.org"
         
         
         // TODO: make it so you don't have to click the log in each time
