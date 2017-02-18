@@ -7,155 +7,205 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA78706E7FCB4F7012E57CF7C72D6C0 /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36141CEE5CE0895C2E295E95F035CAE6 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20DAE5EF6E1A44F52AB370C9FE8BA67E /* SwiftQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1046798DC10899A1D5B29B276D7A5897 /* SwiftQRCode-dummy.m */; };
+		0813953015CB65A236D810DD22EFF95A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADC68AC38365B260269E60555B42BE2 /* Timeline.swift */; };
+		130718A338519E40FB89378977302E95 /* SwiftQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91974B9C5A75E2C5A9A8AA26AF6D895D /* SwiftQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		179ACEFE6E8B6B31C178C315DE47FA9F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C1360C19F96C22A1FFFADE793F618 /* SwiftyJSON.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4348C92E8B9FF06BC1A88FDD0A743C4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		237C8AA627FA81A164BDCF0A3D0EFB41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
-		25D20C597C8B604B86025B0CF1C8ADBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB22ADC87CA3E02355DDE222DFCAB12A /* AVFoundation.framework */; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A873D2C8D0CBD17C6316411060E6A7D7 /* TaskDelegate.swift */; };
-		38A0D032A8A202C61ADE9D165EF8CE71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
-		391A276338840C685263C89EF74CE020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
-		4C1BBEDD34B132C1DF298394BB344D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
-		4CFBA32645CF5ADB1C98815FFFC7A878 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07ACDD48EDBA099A2FEAD4950871AE5 /* SwiftyJSON.swift */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C01407051BDDE221A3641A297667C0 /* Request.swift */; };
-		5AF3F86540AA93602FDFFC9C7B2BC76B /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD955FC7C9B090B1AE673D8C245F0223 /* QRCode.swift */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DB931DC7B69FE48BD1AE2799AC41B /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABAFA70ED17CBD90300D04A245AE58 /* ServerTrustPolicy.swift */; };
-		710F35ADF9BEF26A2703FFAC08E8B509 /* SwiftQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFF5B8EA88A26A395259DE14279620E /* SwiftQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9202C41A332AEC3C4FAF6ACA9165B /* SessionDelegate.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99894229C21E792F00B61E32D07BB51 /* Result.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4477C90C5616329CC5B9E1C08657A8B8 /* TaskDelegate.swift */; };
+		48A4ECBA4481DC5062C986CE6AAED486 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370E9FB421E3D221878A599780441E80 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5906A055FD3BDB14ACB011B655E3C8C0 /* Request.swift */; };
+		53A723A8D6487C3B45E00E5F822A7723 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB22ADC87CA3E02355DDE222DFCAB12A /* AVFoundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238C481A4AF81D4F0881425F00CD5CA /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203D806182C01C6BF5A3EB349269998 /* ServerTrustPolicy.swift */; };
+		77D9C0FCE913E6EFBB00A10012C8AD4D /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E850DA9C06700C2C7A6579A243CFDFCF /* QRCode.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1E543713643D89AD90CE30CF4C18 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E892EF4103DBDA990615A3DA8DDD07C /* Result.swift */; };
+		83BF169B13EBB7862AD02B7EF1661924 /* SwiftQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551181CADA270A455A3959937C69C7D0 /* SwiftQRCode-dummy.m */; };
 		938CC3F1215F0742F3D212482B48A9E0 /* Pods-HackIllinois: QRTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7D5D1EFBEDD28C63428092DBF530C2 /* Pods-HackIllinois: QRTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE786652E023117FE8449A3E2546F85 /* AFError.swift */; };
+		98022D1600D56CC5017A3BAC58E7778A /* JWTDecode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C89A6083C0D4C267A578990C20C84A /* JWTDecode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F4601A7355D8A2C3A808C64028796 /* AFError.swift */; };
 		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65B205CAF87FD249042CCA9714354E /* NetworkReachabilityManager.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59672D6805EAA17BC65207B124BCEF /* Alamofire-dummy.m */; };
+		A0A2444C3AEF16B2A79A5BF7C55F7FB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B89D24517A6C77B54BF1821C25BAC5 /* NetworkReachabilityManager.swift */; };
+		A2E1144E17A7623D02701970C328D53A /* Pods-HackIllinois: QR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7334D034E2CB15546267815553C0EF5D /* Pods-HackIllinois: QR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9446745193904C17AA24F0E27598332 /* JWTDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01648E9CB3E4DB48EEE709A0F893D1C7 /* JWTDecode-dummy.m */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF5D2484956ABAE1A57486F44BDF53A /* Alamofire-dummy.m */; };
 		AB3BA66EDE9BA0B982311EE5E836D127 /* Pods-HackIllinois: QRUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F262E10F790F57CCCB772D4D8C6504F3 /* Pods-HackIllinois: QRUITests-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D19CE4A9AEA92D3B62D98365ED3882 /* SessionManager.swift */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1617B4398C835654CC33FCDD5964230 /* MultipartFormData.swift */; };
-		BA1ABBEA2F693A58B154F51436B218F7 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 750B8C3C8AC7A007954C14969EEDC814 /* SwiftyJSON-dummy.m */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59BF3A694BE81D5CAB094D84461FC87 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE089B3CF181037E5F8F4D653BE2DBD2 /* ParameterEncoding.swift */; };
-		CA3C054A55C1C3DA7DBFE8D6398CBBFA /* Pods-HackIllinois: QR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7334D034E2CB15546267815553C0EF5D /* Pods-HackIllinois: QR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E426F76A55F50D3FD4C5B4A804E35EB /* Response.swift */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08987369B8285C14143BBE892700D03 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF5872A459D8997459737FD81C37BA /* MultipartFormData.swift */; };
+		BB0C4091495DC0E0B801A20E59A7710F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F514C112E109A53150B95F60DFE9365 /* SwiftyJSON-dummy.m */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0600AF68C9471BD6FAC588ECBC06B6A9 /* Validation.swift */; };
+		BE57859225766723020A35A75D883E02 /* Pods-HackIllinois: QR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF95E178DC84F164B08F6D72ECB8C3AC /* Pods-HackIllinois: QR-dummy.m */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CBB9973E65BDD84D1A0D2F374B40E /* ParameterEncoding.swift */; };
+		C9B0FF5A0106E352E3EC3854BDD36A93 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1631910C249562FE4374ED73827F480 /* JWT.swift */; };
+		CA79CBF22E3ABF544E73107CB3FB7460 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59760BFDDF808999C5CF609D665A80BF /* Errors.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA116F88044FFF4500C57A875058266 /* Response.swift */; };
+		D0E2F0F2ADD84482502AA3C8753D925D /* JWTDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F657E1869E178957DD2755C7F8E7 /* JWTDecode.swift */; };
 		DEA797809FE4499CEDF75E797A2CBF9C /* Pods-HackIllinois: QRTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269820D758E5289F651E68880C586499 /* Pods-HackIllinois: QRTests-dummy.m */; };
-		E5356886E0B7ADFD071FDE1A44387D74 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 838CFBB7D1E1CDBDD19B77023CF8C391 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E717D878ADBE4E7742A863BD399E0030 /* Pods-HackIllinois: QR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF95E178DC84F164B08F6D72ECB8C3AC /* Pods-HackIllinois: QR-dummy.m */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE6EF915FDED3FE7666BD1979EC8DE /* Notifications.swift */; };
+		E590DB1916907E26F0D8AC8B69704DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
+		ED56A7B3B4F8C8EAA7667F81D2D0A04A /* A0JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750F680BCF59B5710AA811F49C0780B /* A0JWT.swift */; };
+		EE8C0E9D2D7CB770841FCA52CABC9195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A5FB35234BB4187124A3B9AA37928 /* Notifications.swift */; };
 		F4F5A33CC2D5C340C8D269119685EBA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759DC1B13822C138340851ED75017AC /* Foundation.framework */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198BD6C79226F8BF0BB8AFF8880F087A /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42549C94874D315D7D79A3C23FAF0AD /* Alamofire.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2FAA3A2DA0FC4EFB286A4B543DE0A /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231BE3DDBAE486A4AFD2C5D722DFDA38 /* Alamofire.swift */; };
 		F9226B7006F4FC84EC8DDDD5531601C3 /* Pods-HackIllinois: QRUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C25BBBD9AFAFA253A25F1704018F659B /* Pods-HackIllinois: QRUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32B23FC3D7D18E66DD1947E3C0798D46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05DCFCB7CB4AB98C7C524B823F58DB02;
-			remoteInfo = SwiftQRCode;
-		};
-		85C7C65B2DA3816C035A84BA97C74C8C /* PBXContainerItemProxy */ = {
+		0FA63D7032CE4226647FBD3861CAEEE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
-		9C7FC14377D97B193BD281976EFEB765 /* PBXContainerItemProxy */ = {
+		D3ADDB16173F0373EF18B9DFFEDA2E2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D8BFBA154D42FE04414B6FF924CAB3F;
+			remoteGlobalIDString = 1E4709768EC3FCE3D3E59EE817CAD0C0;
 			remoteInfo = SwiftyJSON;
+		};
+		E0873EB3D85678D7A6624C593DF42780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734E126F2A1BB2F7F1ACCF523A9A8351;
+			remoteInfo = JWTDecode;
+		};
+		E4ED0816DBE89108C0FC102A5A8953D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931D511373E47C22C4D1F3B3503D7A94;
+			remoteInfo = SwiftQRCode;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		071081EB8544487C8F90D678D562AE31 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		01648E9CB3E4DB48EEE709A0F893D1C7 /* JWTDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWTDecode-dummy.m"; sourceTree = "<group>"; };
+		046D8587C44CC7499DFE51C20087544A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		0600AF68C9471BD6FAC588ECBC06B6A9 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		0759DC1B13822C138340851ED75017AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1046798DC10899A1D5B29B276D7A5897 /* SwiftQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftQRCode-dummy.m"; sourceTree = "<group>"; };
-		148622E11F6ED99CFE516088F884FDF1 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		077B1DA3648D411855A2FA24861D467B /* JWTDecode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JWTDecode.modulemap; sourceTree = "<group>"; };
+		1238C481A4AF81D4F0881425F00CD5CA /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		131BC1FB1AD213605E50C12298EEA8F0 /* SwiftQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftQRCode.framework; path = SwiftQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141D75FB56DA0AD3906CCA82F73E55C9 /* SwiftQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRCode-prefix.pch"; sourceTree = "<group>"; };
 		17C2DE82F02E3C431E8E0C81532559B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		198BD6C79226F8BF0BB8AFF8880F087A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		1A8A320483BED6BC86C3F161AD8AC5D5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCF1E543713643D89AD90CE30CF4C18 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		1E915BC9AC31457D94215425BD24466C /* Pods-HackIllinois: QR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackIllinois: QR.release.xcconfig"; sourceTree = "<group>"; };
+		1F514C112E109A53150B95F60DFE9365 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		21F9F657E1869E178957DD2755C7F8E7 /* JWTDecode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTDecode.swift; path = JWTDecode/JWTDecode.swift; sourceTree = "<group>"; };
+		231BE3DDBAE486A4AFD2C5D722DFDA38 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		269820D758E5289F651E68880C586499 /* Pods-HackIllinois: QRTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackIllinois: QRTests-dummy.m"; sourceTree = "<group>"; };
-		2D436B048B334AE57EAFAC961AE7158C /* SwiftQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftQRCode.xcconfig; sourceTree = "<group>"; };
+		2D654C496E1257EF7AE001C4B7F30B99 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		33BAB01C083A8B7AC81927FE4A90E22A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36141CEE5CE0895C2E295E95F035CAE6 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		36BFEFBC6BDCE28AD9BCDC5FB95F6766 /* Pods-HackIllinois: QRUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackIllinois: QRUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		370E9FB421E3D221878A599780441E80 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		39821420239595CEEA28B48CA1963AD9 /* Pods-HackIllinois: QRTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackIllinois: QRTests-resources.sh"; sourceTree = "<group>"; };
-		3DABAFA70ED17CBD90300D04A245AE58 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		40120E673E3EC6127DAEBFBDE2E9E2B7 /* Pods-HackIllinois: QRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackIllinois: QRTests.debug.xcconfig"; sourceTree = "<group>"; };
 		41FA06EEA327156681A0FC56FE283FDD /* Pods-HackIllinois: QRUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackIllinois: QRUITests-resources.sh"; sourceTree = "<group>"; };
-		489DB931DC7B69FE48BD1AE2799AC41B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		4477C90C5616329CC5B9E1C08657A8B8 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		44A2FAA3A2DA0FC4EFB286A4B543DE0A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		4777C17A2CFCC93E8C638B0F0BF50B52 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		4A8AC5D25BFB6B2CF30A97199DE572F6 /* Pods-HackIllinois: QR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackIllinois: QR-frameworks.sh"; sourceTree = "<group>"; };
-		4DEE6EF915FDED3FE7666BD1979EC8DE /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		5179ECBC70CCC8B1C852AE574F6EA4FD /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		4B5742E4E32247FA7550C66F4333C715 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		4CA116F88044FFF4500C57A875058266 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		52E61A076C6A1B60F86C43309D78C474 /* Pods-HackIllinois: QR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackIllinois: QR-acknowledgements.plist"; sourceTree = "<group>"; };
-		563F8C6EE9D2A2D0C87036EB68FB29F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56C3786227DA8F7E6E67A51596162E8D /* SwiftQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftQRCode.modulemap; sourceTree = "<group>"; };
-		5B61F9004DBCD345F167BBAEBDF6C974 /* SwiftQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftQRCode.framework; path = SwiftQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E426F76A55F50D3FD4C5B4A804E35EB /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		5FC9202C41A332AEC3C4FAF6ACA9165B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		5FFF5B8EA88A26A395259DE14279620E /* SwiftQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRCode-umbrella.h"; sourceTree = "<group>"; };
+		551181CADA270A455A3959937C69C7D0 /* SwiftQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftQRCode-dummy.m"; sourceTree = "<group>"; };
+		5906A055FD3BDB14ACB011B655E3C8C0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		59760BFDDF808999C5CF609D665A80BF /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = JWTDecode/Errors.swift; sourceTree = "<group>"; };
+		5A3AFBD451D76DD420C55E7C7D2E40F5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADC68AC38365B260269E60555B42BE2 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		5E892EF4103DBDA990615A3DA8DDD07C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		5EF5D2484956ABAE1A57486F44BDF53A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		605425B99DCC0A3497F807117BC530A2 /* Pods_HackIllinois__QRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackIllinois__QRUITests.framework; path = "Pods-HackIllinois: QRUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668A5FB35234BB4187124A3B9AA37928 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		689464E969FC11ECA2CCB3D1F3079A4A /* Pods-HackIllinois: QRUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackIllinois: QRUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6B668A35EC7E1A2DFC0128F238DD4655 /* SwiftQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRCode-prefix.pch"; sourceTree = "<group>"; };
-		711A9CB3CB82E18D8460A63E736158EE /* Pods_HackIllinois__QRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackIllinois__QRUITests.framework; path = "Pods-HackIllinois: QRUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C62BF0E58367A7F96E49E12167E86BA /* SwiftQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftQRCode.modulemap; sourceTree = "<group>"; };
+		6F9F8CFB0E3CBFA55F9B8C94D0EE82F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A97FA093361E3F49664E9DDE53F68D /* Pods_HackIllinois__QRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackIllinois__QRTests.framework; path = "Pods-HackIllinois: QRTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7334D034E2CB15546267815553C0EF5D /* Pods-HackIllinois: QR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackIllinois: QR-umbrella.h"; sourceTree = "<group>"; };
-		750B8C3C8AC7A007954C14969EEDC814 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		75B89D24517A6C77B54BF1821C25BAC5 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		75CF5872A459D8997459737FD81C37BA /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		7793BC2B69E3BEDEE3FDA3C7226C5014 /* Pods-HackIllinois: QRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackIllinois: QRTests.release.xcconfig"; sourceTree = "<group>"; };
-		7DA78706E7FCB4F7012E57CF7C72D6C0 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		838CFBB7D1E1CDBDD19B77023CF8C391 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		86D19CE4A9AEA92D3B62D98365ED3882 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		7E92C6249ECB39B4233F06E3AFF17B3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8203D806182C01C6BF5A3EB349269998 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		83F37380A2C5C61B103B79B64853151A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892BA4641D56DA2938851C65F12339BD /* JWTDecode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTDecode.xcconfig; sourceTree = "<group>"; };
 		8EAB84DA47A1E0E374E767DE2A4639FE /* Pods-HackIllinois: QRUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackIllinois: QRUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8F0F4601A7355D8A2C3A808C64028796 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		91974B9C5A75E2C5A9A8AA26AF6D895D /* SwiftQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftQRCode-umbrella.h"; sourceTree = "<group>"; };
+		93A49BCCF098886538216B3FC70EFD78 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		956D9910F4CA5D50291F6C2BEE4BF009 /* Pods-HackIllinois: QRTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackIllinois: QRTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95E5B42CD16938C0017E405CFE6585C5 /* Pods-HackIllinois: QRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackIllinois: QRUITests.release.xcconfig"; sourceTree = "<group>"; };
 		97031016366D59E32176D70E421814B1 /* Pods-HackIllinois: QR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HackIllinois: QR.modulemap"; sourceTree = "<group>"; };
+		98C89A6083C0D4C267A578990C20C84A /* JWTDecode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTDecode-umbrella.h"; sourceTree = "<group>"; };
+		9E1C1360C19F96C22A1FFFADE793F618 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		A08987369B8285C14143BBE892700D03 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		A49B0A675ED879C9D01EE2B94731D687 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53B7750EB6DE9D510F7602912327103 /* Pods-HackIllinois: QRUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HackIllinois: QRUITests.modulemap"; sourceTree = "<group>"; };
 		A54CE3C8517A6D165211E433A6C3C68B /* Pods-HackIllinois: QR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackIllinois: QR.debug.xcconfig"; sourceTree = "<group>"; };
-		A5854D05C9BE94B971C15E7FBF321040 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		A85E56F751BE216EE0BA335764EA43F0 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		A873D2C8D0CBD17C6316411060E6A7D7 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		A98A863B25DA6844809B76875C68B6AC /* Pods-HackIllinois: QRTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HackIllinois: QRTests.modulemap"; sourceTree = "<group>"; };
-		AA04A398AE2E8DF43D2916CCC1B1C95F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABB7EEAC88CA5892E526EC3CE8CB95F7 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		AE05B609BF4C5D7D7B3EA93E3811682F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		AF7D5D1EFBEDD28C63428092DBF530C2 /* Pods-HackIllinois: QRTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackIllinois: QRTests-umbrella.h"; sourceTree = "<group>"; };
 		AF95E178DC84F164B08F6D72ECB8C3AC /* Pods-HackIllinois: QR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackIllinois: QR-dummy.m"; sourceTree = "<group>"; };
-		B208210624D090F738987457A4F2A142 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB05643B7430DADB0BA9A995EA7A7B72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE089B3CF181037E5F8F4D653BE2DBD2 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		BF65B205CAF87FD249042CCA9714354E /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B1AE7F49A5FC43595D23B4DFD71D374A /* Pods_HackIllinois__QR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackIllinois__QR.framework; path = "Pods-HackIllinois: QR.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25BBBD9AFAFA253A25F1704018F659B /* Pods-HackIllinois: QRUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackIllinois: QRUITests-umbrella.h"; sourceTree = "<group>"; };
-		C2C01407051BDDE221A3641A297667C0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		C99894229C21E792F00B61E32D07BB51 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		CE175558D8C44E186ACF38BCF588395C /* Pods-HackIllinois: QR-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackIllinois: QR-resources.sh"; sourceTree = "<group>"; };
-		D07ACDD48EDBA099A2FEAD4950871AE5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		D0C545FE45B68DAC520F4AD72BE448B3 /* SwiftQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftQRCode.xcconfig; sourceTree = "<group>"; };
+		D1631910C249562FE4374ED73827F480 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = JWTDecode/JWT.swift; sourceTree = "<group>"; };
+		D266BFDCE23C7DE1DE8E412DEA2EE115 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29D65D2B0C0038C46EE17DDD270DF30 /* Pods-HackIllinois: QR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackIllinois: QR-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D42549C94874D315D7D79A3C23FAF0AD /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		D59BF3A694BE81D5CAB094D84461FC87 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		DD955FC7C9B090B1AE673D8C245F0223 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/Source/QRCode.swift; sourceTree = "<group>"; };
-		DDE786652E023117FE8449A3E2546F85 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		E1617B4398C835654CC33FCDD5964230 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		D4348C92E8B9FF06BC1A88FDD0A743C4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		DD1C4CDB6208F3DDBC839D44EF9E17A2 /* JWTDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWTDecode.framework; path = JWTDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAF02B0A553810766DA3EB009A4A564 /* JWTDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTDecode-prefix.pch"; sourceTree = "<group>"; };
+		E42CBB9973E65BDD84D1A0D2F374B40E /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		E58C1C473B2675C4F87249BA1E7CF191 /* Pods-HackIllinois: QRTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackIllinois: QRTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E768E381B0C517D0AD0D5691D55521F9 /* Pods-HackIllinois: QRTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackIllinois: QRTests-frameworks.sh"; sourceTree = "<group>"; };
 		E76D728015EC87492EAB18A5CFDAB27D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA0F3AA8D403A18C542FFCB109172144 /* Pods_HackIllinois__QRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackIllinois__QRTests.framework; path = "Pods-HackIllinois: QRTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E850DA9C06700C2C7A6579A243CFDFCF /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/Source/QRCode.swift; sourceTree = "<group>"; };
 		EB22ADC87CA3E02355DDE222DFCAB12A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		EB59672D6805EAA17BC65207B124BCEF /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		F262E10F790F57CCCB772D4D8C6504F3 /* Pods-HackIllinois: QRUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackIllinois: QRUITests-dummy.m"; sourceTree = "<group>"; };
+		F750F680BCF59B5710AA811F49C0780B /* A0JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = A0JWT.swift; path = JWTDecode/A0JWT.swift; sourceTree = "<group>"; };
 		F9DF43C9A6F0F915621B52F8C1513CEB /* Pods-HackIllinois: QRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackIllinois: QRUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF8381265CCCEAAE5746290072138306 /* Pods_HackIllinois__QR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackIllinois__QR.framework; path = "Pods-HackIllinois: QR.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E246BFD712E03C56335C43B77A56618 /* Frameworks */ = {
+		14BF850B20D6C1E568DC676ECE1E543F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C1BBEDD34B132C1DF298394BB344D25 /* Foundation.framework in Frameworks */,
+				E590DB1916907E26F0D8AC8B69704DE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB84F9441F6A382DAC1B407D7E8A494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A723A8D6487C3B45E00E5F822A7723 /* AVFoundation.framework in Frameworks */,
+				EE8C0E9D2D7CB770841FCA52CABC9195 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218D888CBCE92ECE495AFF29D100FAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0813953015CB65A236D810DD22EFF95A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB45694B7ED4C32E392BB4629F5EB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A2444C3AEF16B2A79A5BF7C55F7FB6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +225,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A21FD6625B83C34E2FCD874CD16C3F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38A0D032A8A202C61ADE9D165EF8CE71 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,50 +233,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFF67A586A767850F7B499DA425CE902 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25D20C597C8B604B86025B0CF1C8ADBE /* AVFoundation.framework in Frameworks */,
-				391A276338840C685263C89EF74CE020 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0228CDA71A48B04FAECD480D73A429CD /* Pods */ = {
+		0892865E223511390A1D37C3EAE8A371 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D03D34591916F98B85E9E4C92CFF1F3 /* Alamofire */,
-				D49BAC95BF13550ED6C1BA251AD0E21F /* SwiftQRCode */,
-				19C6BF9250527AB562362C8D97C50444 /* SwiftyJSON */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		19C6BF9250527AB562362C8D97C50444 /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				D07ACDD48EDBA099A2FEAD4950871AE5 /* SwiftyJSON.swift */,
-				7B11680C1D742A0753F1F457A5A44DD0 /* Support Files */,
-			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		1DC830FCD791E0813772FAE74FF36258 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABB7EEAC88CA5892E526EC3CE8CB95F7 /* Alamofire.modulemap */,
-				071081EB8544487C8F90D678D562AE31 /* Alamofire.xcconfig */,
-				EB59672D6805EAA17BC65207B124BCEF /* Alamofire-dummy.m */,
-				148622E11F6ED99CFE516088F884FDF1 /* Alamofire-prefix.pch */,
-				36141CEE5CE0895C2E295E95F035CAE6 /* Alamofire-umbrella.h */,
-				563F8C6EE9D2A2D0C87036EB68FB29F4 /* Info.plist */,
+				6F9F8CFB0E3CBFA55F9B8C94D0EE82F1 /* Info.plist */,
+				6C62BF0E58367A7F96E49E12167E86BA /* SwiftQRCode.modulemap */,
+				D0C545FE45B68DAC520F4AD72BE448B3 /* SwiftQRCode.xcconfig */,
+				551181CADA270A455A3959937C69C7D0 /* SwiftQRCode-dummy.m */,
+				141D75FB56DA0AD3906CCA82F73E55C9 /* SwiftQRCode-prefix.pch */,
+				91974B9C5A75E2C5A9A8AA26AF6D895D /* SwiftQRCode-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			path = "../Target Support Files/SwiftQRCode";
+			sourceTree = "<group>";
+		};
+		0DCD32E4E5DE13954992D906F2FBD7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D266BFDCE23C7DE1DE8E412DEA2EE115 /* Alamofire.framework */,
+				DD1C4CDB6208F3DDBC839D44EF9E17A2 /* JWTDecode.framework */,
+				B1AE7F49A5FC43595D23B4DFD71D374A /* Pods_HackIllinois__QR.framework */,
+				71A97FA093361E3F49664E9DDE53F68D /* Pods_HackIllinois__QRTests.framework */,
+				605425B99DCC0A3497F807117BC530A2 /* Pods_HackIllinois__QRUITests.framework */,
+				131BC1FB1AD213605E50C12298EEA8F0 /* SwiftQRCode.framework */,
+				5A3AFBD451D76DD420C55E7C7D2E40F5 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12D3E814BB817826E0D41839A8B15AD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEC16B6A8F47FCC93152AFA5F13D0A30 /* Alamofire */,
+				97CFF975BD9A8BF1BC012CD4913C24CE /* JWTDecode */,
+				8900DD3A3D1D95100BF406B6F212B0B7 /* SwiftQRCode */,
+				D94B20C4A2868F2797956F0AEAEEB654 /* SwiftyJSON */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3F7EA461C71A5E2B23226209C47C9C16 /* Pods-HackIllinois: QRTests */ = {
@@ -263,68 +301,92 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5D03D34591916F98B85E9E4C92CFF1F3 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				DDE786652E023117FE8449A3E2546F85 /* AFError.swift */,
-				D42549C94874D315D7D79A3C23FAF0AD /* Alamofire.swift */,
-				489DB931DC7B69FE48BD1AE2799AC41B /* DispatchQueue+Alamofire.swift */,
-				E1617B4398C835654CC33FCDD5964230 /* MultipartFormData.swift */,
-				BF65B205CAF87FD249042CCA9714354E /* NetworkReachabilityManager.swift */,
-				4DEE6EF915FDED3FE7666BD1979EC8DE /* Notifications.swift */,
-				BE089B3CF181037E5F8F4D653BE2DBD2 /* ParameterEncoding.swift */,
-				C2C01407051BDDE221A3641A297667C0 /* Request.swift */,
-				5E426F76A55F50D3FD4C5B4A804E35EB /* Response.swift */,
-				198BD6C79226F8BF0BB8AFF8880F087A /* ResponseSerialization.swift */,
-				C99894229C21E792F00B61E32D07BB51 /* Result.swift */,
-				3DABAFA70ED17CBD90300D04A245AE58 /* ServerTrustPolicy.swift */,
-				5FC9202C41A332AEC3C4FAF6ACA9165B /* SessionDelegate.swift */,
-				86D19CE4A9AEA92D3B62D98365ED3882 /* SessionManager.swift */,
-				A873D2C8D0CBD17C6316411060E6A7D7 /* TaskDelegate.swift */,
-				7DA78706E7FCB4F7012E57CF7C72D6C0 /* Timeline.swift */,
-				D59BF3A694BE81D5CAB094D84461FC87 /* Validation.swift */,
-				1DC830FCD791E0813772FAE74FF36258 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		7B11680C1D742A0753F1F457A5A44DD0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB05643B7430DADB0BA9A995EA7A7B72 /* Info.plist */,
-				A5854D05C9BE94B971C15E7FBF321040 /* SwiftyJSON.modulemap */,
-				5179ECBC70CCC8B1C852AE574F6EA4FD /* SwiftyJSON.xcconfig */,
-				750B8C3C8AC7A007954C14969EEDC814 /* SwiftyJSON-dummy.m */,
-				A85E56F751BE216EE0BA335764EA43F0 /* SwiftyJSON-prefix.pch */,
-				838CFBB7D1E1CDBDD19B77023CF8C391 /* SwiftyJSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				0228CDA71A48B04FAECD480D73A429CD /* Pods */,
-				7E984904B121F108FB2287DF65CF7980 /* Products */,
+				12D3E814BB817826E0D41839A8B15AD3 /* Pods */,
+				0DCD32E4E5DE13954992D906F2FBD7FD /* Products */,
 				FB9AEDFF4521BB1866EE4C5964CDB2AE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E984904B121F108FB2287DF65CF7980 /* Products */ = {
+		8900DD3A3D1D95100BF406B6F212B0B7 /* SwiftQRCode */ = {
 			isa = PBXGroup;
 			children = (
-				1A8A320483BED6BC86C3F161AD8AC5D5 /* Alamofire.framework */,
-				FF8381265CCCEAAE5746290072138306 /* Pods_HackIllinois__QR.framework */,
-				EA0F3AA8D403A18C542FFCB109172144 /* Pods_HackIllinois__QRTests.framework */,
-				711A9CB3CB82E18D8460A63E736158EE /* Pods_HackIllinois__QRUITests.framework */,
-				5B61F9004DBCD345F167BBAEBDF6C974 /* SwiftQRCode.framework */,
-				B208210624D090F738987457A4F2A142 /* SwiftyJSON.framework */,
+				E850DA9C06700C2C7A6579A243CFDFCF /* QRCode.swift */,
+				0892865E223511390A1D37C3EAE8A371 /* Support Files */,
 			);
-			name = Products;
+			name = SwiftQRCode;
+			path = SwiftQRCode;
+			sourceTree = "<group>";
+		};
+		97CFF975BD9A8BF1BC012CD4913C24CE /* JWTDecode */ = {
+			isa = PBXGroup;
+			children = (
+				F750F680BCF59B5710AA811F49C0780B /* A0JWT.swift */,
+				59760BFDDF808999C5CF609D665A80BF /* Errors.swift */,
+				D1631910C249562FE4374ED73827F480 /* JWT.swift */,
+				21F9F657E1869E178957DD2755C7F8E7 /* JWTDecode.swift */,
+				A909159B82B34BDCDC16A0BB78E2E029 /* Support Files */,
+			);
+			name = JWTDecode;
+			path = JWTDecode;
+			sourceTree = "<group>";
+		};
+		A7C09CBA421BD8F8E8F4F0F98D0D062D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				046D8587C44CC7499DFE51C20087544A /* Alamofire.modulemap */,
+				AE05B609BF4C5D7D7B3EA93E3811682F /* Alamofire.xcconfig */,
+				5EF5D2484956ABAE1A57486F44BDF53A /* Alamofire-dummy.m */,
+				4777C17A2CFCC93E8C638B0F0BF50B52 /* Alamofire-prefix.pch */,
+				D4348C92E8B9FF06BC1A88FDD0A743C4 /* Alamofire-umbrella.h */,
+				7E92C6249ECB39B4233F06E3AFF17B3C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		A909159B82B34BDCDC16A0BB78E2E029 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A49B0A675ED879C9D01EE2B94731D687 /* Info.plist */,
+				077B1DA3648D411855A2FA24861D467B /* JWTDecode.modulemap */,
+				892BA4641D56DA2938851C65F12339BD /* JWTDecode.xcconfig */,
+				01648E9CB3E4DB48EEE709A0F893D1C7 /* JWTDecode-dummy.m */,
+				DFAF02B0A553810766DA3EB009A4A564 /* JWTDecode-prefix.pch */,
+				98C89A6083C0D4C267A578990C20C84A /* JWTDecode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JWTDecode";
+			sourceTree = "<group>";
+		};
+		AEC16B6A8F47FCC93152AFA5F13D0A30 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F4601A7355D8A2C3A808C64028796 /* AFError.swift */,
+				231BE3DDBAE486A4AFD2C5D722DFDA38 /* Alamofire.swift */,
+				1238C481A4AF81D4F0881425F00CD5CA /* DispatchQueue+Alamofire.swift */,
+				75CF5872A459D8997459737FD81C37BA /* MultipartFormData.swift */,
+				75B89D24517A6C77B54BF1821C25BAC5 /* NetworkReachabilityManager.swift */,
+				668A5FB35234BB4187124A3B9AA37928 /* Notifications.swift */,
+				E42CBB9973E65BDD84D1A0D2F374B40E /* ParameterEncoding.swift */,
+				5906A055FD3BDB14ACB011B655E3C8C0 /* Request.swift */,
+				4CA116F88044FFF4500C57A875058266 /* Response.swift */,
+				44A2FAA3A2DA0FC4EFB286A4B543DE0A /* ResponseSerialization.swift */,
+				5E892EF4103DBDA990615A3DA8DDD07C /* Result.swift */,
+				8203D806182C01C6BF5A3EB349269998 /* ServerTrustPolicy.swift */,
+				1CCF1E543713643D89AD90CE30CF4C18 /* SessionDelegate.swift */,
+				A08987369B8285C14143BBE892700D03 /* SessionManager.swift */,
+				4477C90C5616329CC5B9E1C08657A8B8 /* TaskDelegate.swift */,
+				5ADC68AC38365B260269E60555B42BE2 /* Timeline.swift */,
+				0600AF68C9471BD6FAC588ECBC06B6A9 /* Validation.swift */,
+				A7C09CBA421BD8F8E8F4F0F98D0D062D /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		C630E1E21C23A0041076BA5E8EFAABD2 /* Pods-HackIllinois: QR */ = {
@@ -345,14 +407,28 @@
 			path = "Target Support Files/Pods-HackIllinois: QR";
 			sourceTree = "<group>";
 		};
-		D49BAC95BF13550ED6C1BA251AD0E21F /* SwiftQRCode */ = {
+		C6C750A49B47596A665891F47455C7B7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD955FC7C9B090B1AE673D8C245F0223 /* QRCode.swift */,
-				EE94975BF4926187BBEDE42B9E275F0E /* Support Files */,
+				83F37380A2C5C61B103B79B64853151A /* Info.plist */,
+				93A49BCCF098886538216B3FC70EFD78 /* SwiftyJSON.modulemap */,
+				4B5742E4E32247FA7550C66F4333C715 /* SwiftyJSON.xcconfig */,
+				1F514C112E109A53150B95F60DFE9365 /* SwiftyJSON-dummy.m */,
+				2D654C496E1257EF7AE001C4B7F30B99 /* SwiftyJSON-prefix.pch */,
+				370E9FB421E3D221878A599780441E80 /* SwiftyJSON-umbrella.h */,
 			);
-			name = SwiftQRCode;
-			path = SwiftQRCode;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		D94B20C4A2868F2797956F0AEAEEB654 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				9E1C1360C19F96C22A1FFFADE793F618 /* SwiftyJSON.swift */,
+				C6C750A49B47596A665891F47455C7B7 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 		DAC2290A18FFA43947A67D9B4F974D1A /* Pods-HackIllinois: QRUITests */ = {
@@ -371,20 +447,6 @@
 			);
 			name = "Pods-HackIllinois: QRUITests";
 			path = "Target Support Files/Pods-HackIllinois: QRUITests";
-			sourceTree = "<group>";
-		};
-		EE94975BF4926187BBEDE42B9E275F0E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA04A398AE2E8DF43D2916CCC1B1C95F /* Info.plist */,
-				56C3786227DA8F7E6E67A51596162E8D /* SwiftQRCode.modulemap */,
-				2D436B048B334AE57EAFAC961AE7158C /* SwiftQRCode.xcconfig */,
-				1046798DC10899A1D5B29B276D7A5897 /* SwiftQRCode-dummy.m */,
-				6B668A35EC7E1A2DFC0128F238DD4655 /* SwiftQRCode-prefix.pch */,
-				5FFF5B8EA88A26A395259DE14279620E /* SwiftQRCode-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftQRCode";
 			sourceTree = "<group>";
 		};
 		F9B81937E2358A876EB30CC711EF4620 /* iOS */ = {
@@ -409,19 +471,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0582660A249758F2EE021368DBC57495 /* Headers */ = {
+		12533A79161AF24EB1965DB594313743 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5356886E0B7ADFD071FDE1A44387D74 /* SwiftyJSON-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3EBECBAA24AD68737F0A5678315AFA77 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				710F35ADF9BEF26A2703FFAC08E8B509 /* SwiftQRCode-umbrella.h in Headers */,
+				A2E1144E17A7623D02701970C328D53A /* Pods-HackIllinois: QR-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +487,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BD45ED77CF94E857E9A2D28AA118273 /* Headers */ = {
+		8B15BDD3E0F268D14A780995210F255C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3C054A55C1C3DA7DBFE8D6398CBBFA /* Pods-HackIllinois: QR-umbrella.h in Headers */,
+				98022D1600D56CC5017A3BAC58E7778A /* JWTDecode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE6C74432B657201162CA6DB7FF336 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130718A338519E40FB89378977302E95 /* SwiftQRCode-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,33 +519,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF93B4F3A005C7694CE3723A4970F067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A4ECBA4481DC5062C986CE6AAED486 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		05DCFCB7CB4AB98C7C524B823F58DB02 /* SwiftQRCode */ = {
+		1E4709768EC3FCE3D3E59EE817CAD0C0 /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1A0D3AC403313FCD89A9F0AE1CC7F16 /* Build configuration list for PBXNativeTarget "SwiftQRCode" */;
+			buildConfigurationList = 66CF63B822D7EF2BF1F9E1B6CFFDAE90 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				A5585FBDD0E4840C85966FD0C84AA7DC /* Sources */,
-				FFF67A586A767850F7B499DA425CE902 /* Frameworks */,
-				3EBECBAA24AD68737F0A5678315AFA77 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftQRCode;
-			productName = SwiftQRCode;
-			productReference = 5B61F9004DBCD345F167BBAEBDF6C974 /* SwiftQRCode.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6D8BFBA154D42FE04414B6FF924CAB3F /* SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93B14ECB6B164F6730B075106F4B849D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
-			buildPhases = (
-				8E35142CC85FEE18675487CD2C5C15C6 /* Sources */,
-				8A21FD6625B83C34E2FCD874CD16C3F7 /* Frameworks */,
-				0582660A249758F2EE021368DBC57495 /* Headers */,
+				8448C39380C8C6C3F61DBA535E44F1E2 /* Sources */,
+				3AB45694B7ED4C32E392BB4629F5EB4C /* Frameworks */,
+				EF93B4F3A005C7694CE3723A4970F067 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -491,7 +544,24 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = B208210624D090F738987457A4F2A142 /* SwiftyJSON.framework */;
+			productReference = 5A3AFBD451D76DD420C55E7C7D2E40F5 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		734E126F2A1BB2F7F1ACCF523A9A8351 /* JWTDecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033B38A811E6E54B02C8CB30C17608FB /* Build configuration list for PBXNativeTarget "JWTDecode" */;
+			buildPhases = (
+				A609FCE138E7FE7BA6445FC3598F7293 /* Sources */,
+				14BF850B20D6C1E568DC676ECE1E543F /* Frameworks */,
+				8B15BDD3E0F268D14A780995210F255C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWTDecode;
+			productName = JWTDecode;
+			productReference = DD1C4CDB6208F3DDBC839D44EF9E17A2 /* JWTDecode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -508,7 +578,45 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 1A8A320483BED6BC86C3F161AD8AC5D5 /* Alamofire.framework */;
+			productReference = D266BFDCE23C7DE1DE8E412DEA2EE115 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F819D8CD6F6375CA8EC41410ADD4857 /* Pods-HackIllinois: QR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E83F0C54AA24CDAB899DFB14697ADA2 /* Build configuration list for PBXNativeTarget "Pods-HackIllinois: QR" */;
+			buildPhases = (
+				F616737E6EC81572FD38DD15F6FF3D8E /* Sources */,
+				218D888CBCE92ECE495AFF29D100FAAD /* Frameworks */,
+				12533A79161AF24EB1965DB594313743 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E47DF39EA4168924134018F672D762 /* PBXTargetDependency */,
+				8C256A8B2D1CB0A2FD469E2AA5684651 /* PBXTargetDependency */,
+				A22B1C10A5F910EF7903F2EE420991B7 /* PBXTargetDependency */,
+				BF98FE905BA59174084A35EE03388F03 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackIllinois: QR";
+			productName = "Pods-HackIllinois: QR";
+			productReference = B1AE7F49A5FC43595D23B4DFD71D374A /* Pods_HackIllinois__QR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		931D511373E47C22C4D1F3B3503D7A94 /* SwiftQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7104C4E9ECBB08B2BC07A8412EA193 /* Build configuration list for PBXNativeTarget "SwiftQRCode" */;
+			buildPhases = (
+				3A0606BF6AAF65E71F35D37B522EF161 /* Sources */,
+				1BB84F9441F6A382DAC1B407D7E8A494 /* Frameworks */,
+				A7CE6C74432B657201162CA6DB7FF336 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftQRCode;
+			productName = SwiftQRCode;
+			productReference = 131BC1FB1AD213605E50C12298EEA8F0 /* SwiftQRCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A549CEEB097B26A54CD8338744C0E26 /* Pods-HackIllinois: QRTests */ = {
@@ -525,7 +633,7 @@
 			);
 			name = "Pods-HackIllinois: QRTests";
 			productName = "Pods-HackIllinois: QRTests";
-			productReference = EA0F3AA8D403A18C542FFCB109172144 /* Pods_HackIllinois__QRTests.framework */;
+			productReference = 71A97FA093361E3F49664E9DDE53F68D /* Pods_HackIllinois__QRTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2D96DB129D16346E2409D76025F3BF5 /* Pods-HackIllinois: QRUITests */ = {
@@ -542,27 +650,7 @@
 			);
 			name = "Pods-HackIllinois: QRUITests";
 			productName = "Pods-HackIllinois: QRUITests";
-			productReference = 711A9CB3CB82E18D8460A63E736158EE /* Pods_HackIllinois__QRUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E5D54D3D95D4EFE2AF8F1898A76F3B0C /* Pods-HackIllinois: QR */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0EF3BD53F1B4D8243FBA0AC41D0ABD78 /* Build configuration list for PBXNativeTarget "Pods-HackIllinois: QR" */;
-			buildPhases = (
-				E8E4AD9AE434D6986BAC06134F04B813 /* Sources */,
-				2E246BFD712E03C56335C43B77A56618 /* Frameworks */,
-				7BD45ED77CF94E857E9A2D28AA118273 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94A46110E52B4A93D3BAA4AA32601C29 /* PBXTargetDependency */,
-				8E0A9725B60BD5BC5A55E399114B5AFD /* PBXTargetDependency */,
-				4E47717E7F6B2A75954CCB57F3F3F1AB /* PBXTargetDependency */,
-			);
-			name = "Pods-HackIllinois: QR";
-			productName = "Pods-HackIllinois: QR";
-			productReference = FF8381265CCCEAAE5746290072138306 /* Pods_HackIllinois__QR.framework */;
+			productReference = 605425B99DCC0A3497F807117BC530A2 /* Pods_HackIllinois__QRUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -582,16 +670,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7E984904B121F108FB2287DF65CF7980 /* Products */;
+			productRefGroup = 0DCD32E4E5DE13954992D906F2FBD7FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
-				E5D54D3D95D4EFE2AF8F1898A76F3B0C /* Pods-HackIllinois: QR */,
+				734E126F2A1BB2F7F1ACCF523A9A8351 /* JWTDecode */,
+				8F819D8CD6F6375CA8EC41410ADD4857 /* Pods-HackIllinois: QR */,
 				9A549CEEB097B26A54CD8338744C0E26 /* Pods-HackIllinois: QRTests */,
 				D2D96DB129D16346E2409D76025F3BF5 /* Pods-HackIllinois: QRUITests */,
-				05DCFCB7CB4AB98C7C524B823F58DB02 /* SwiftQRCode */,
-				6D8BFBA154D42FE04414B6FF924CAB3F /* SwiftyJSON */,
+				931D511373E47C22C4D1F3B3503D7A94 /* SwiftQRCode */,
+				1E4709768EC3FCE3D3E59EE817CAD0C0 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
@@ -622,6 +711,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A0606BF6AAF65E71F35D37B522EF161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D9C0FCE913E6EFBB00A10012C8AD4D /* QRCode.swift in Sources */,
+				83BF169B13EBB7862AD02B7EF1661924 /* SwiftQRCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49C9A0F8632F3668FB9C21D2EC2D9855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -630,21 +728,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E35142CC85FEE18675487CD2C5C15C6 /* Sources */ = {
+		8448C39380C8C6C3F61DBA535E44F1E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA1ABBEA2F693A58B154F51436B218F7 /* SwiftyJSON-dummy.m in Sources */,
-				4CFBA32645CF5ADB1C98815FFFC7A878 /* SwiftyJSON.swift in Sources */,
+				BB0C4091495DC0E0B801A20E59A7710F /* SwiftyJSON-dummy.m in Sources */,
+				179ACEFE6E8B6B31C178C315DE47FA9F /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5585FBDD0E4840C85966FD0C84AA7DC /* Sources */ = {
+		A609FCE138E7FE7BA6445FC3598F7293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF3F86540AA93602FDFFC9C7B2BC76B /* QRCode.swift in Sources */,
-				20DAE5EF6E1A44F52AB370C9FE8BA67E /* SwiftQRCode-dummy.m in Sources */,
+				ED56A7B3B4F8C8EAA7667F81D2D0A04A /* A0JWT.swift in Sources */,
+				CA79CBF22E3ABF544E73107CB3FB7460 /* Errors.swift in Sources */,
+				C9B0FF5A0106E352E3EC3854BDD36A93 /* JWT.swift in Sources */,
+				A9446745193904C17AA24F0E27598332 /* JWTDecode-dummy.m in Sources */,
+				D0E2F0F2ADD84482502AA3C8753D925D /* JWTDecode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,41 +757,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8E4AD9AE434D6986BAC06134F04B813 /* Sources */ = {
+		F616737E6EC81572FD38DD15F6FF3D8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E717D878ADBE4E7742A863BD399E0030 /* Pods-HackIllinois: QR-dummy.m in Sources */,
+				BE57859225766723020A35A75D883E02 /* Pods-HackIllinois: QR-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E47717E7F6B2A75954CCB57F3F3F1AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = 6D8BFBA154D42FE04414B6FF924CAB3F /* SwiftyJSON */;
-			targetProxy = 9C7FC14377D97B193BD281976EFEB765 /* PBXContainerItemProxy */;
-		};
-		8E0A9725B60BD5BC5A55E399114B5AFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftQRCode;
-			target = 05DCFCB7CB4AB98C7C524B823F58DB02 /* SwiftQRCode */;
-			targetProxy = 32B23FC3D7D18E66DD1947E3C0798D46 /* PBXContainerItemProxy */;
-		};
-		94A46110E52B4A93D3BAA4AA32601C29 /* PBXTargetDependency */ = {
+		53E47DF39EA4168924134018F672D762 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 85C7C65B2DA3816C035A84BA97C74C8C /* PBXContainerItemProxy */;
+			targetProxy = 0FA63D7032CE4226647FBD3861CAEEE2 /* PBXContainerItemProxy */;
+		};
+		8C256A8B2D1CB0A2FD469E2AA5684651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWTDecode;
+			target = 734E126F2A1BB2F7F1ACCF523A9A8351 /* JWTDecode */;
+			targetProxy = E0873EB3D85678D7A6624C593DF42780 /* PBXContainerItemProxy */;
+		};
+		A22B1C10A5F910EF7903F2EE420991B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftQRCode;
+			target = 931D511373E47C22C4D1F3B3503D7A94 /* SwiftQRCode */;
+			targetProxy = E4ED0816DBE89108C0FC102A5A8953D6 /* PBXContainerItemProxy */;
+		};
+		BF98FE905BA59174084A35EE03388F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 1E4709768EC3FCE3D3E59EE817CAD0C0 /* SwiftyJSON */;
+			targetProxy = D3ADDB16173F0373EF18B9DFFEDA2E2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 071081EB8544487C8F90D678D562AE31 /* Alamofire.xcconfig */;
+			baseConfigurationReference = AE05B609BF4C5D7D7B3EA93E3811682F /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -764,9 +871,9 @@
 			};
 			name = Debug;
 		};
-		1ADCDC429C28C5158A6BFCB1DFAFC5E0 /* Release */ = {
+		130DC41068E0EC03F01E21DA6559164D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E915BC9AC31457D94215425BD24466C /* Pods-HackIllinois: QR.release.xcconfig */;
+			baseConfigurationReference = 892BA4641D56DA2938851C65F12339BD /* JWTDecode.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -779,20 +886,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HackIllinois: QR/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JWTDecode/JWTDecode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWTDecode/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR.modulemap";
+				MODULEMAP_FILE = "Target Support Files/JWTDecode/JWTDecode.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HackIllinois__QR;
+				PRODUCT_NAME = JWTDecode;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -869,9 +973,108 @@
 			};
 			name = Debug;
 		};
-		3F79D397B3E0EAFDBE28A9EACA76072F /* Release */ = {
+		3FA8D7DFBB124A1D8D040FD6614860FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5179ECBC70CCC8B1C852AE574F6EA4FD /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 4B5742E4E32247FA7550C66F4333C715 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73794A22A1BFB3DE081E39AF22A2D144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C545FE45B68DAC520F4AD72BE448B3 /* SwiftQRCode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftQRCode/SwiftQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftQRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftQRCode/SwiftQRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		745A7BFD43BA0EE7932EF6CECDE4E443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892BA4641D56DA2938851C65F12339BD /* JWTDecode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWTDecode/JWTDecode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWTDecode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWTDecode/JWTDecode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JWTDecode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A589344DD18DCFE55E37786B38BFD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5742E4E32247FA7550C66F4333C715 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -901,15 +1104,15 @@
 			};
 			name = Release;
 		};
-		83939006678969EB67DED5AB82FED16A /* Debug */ = {
+		A683DEBF61736007D0BA14FC4BA21B67 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A54CE3C8517A6D165211E433A6C3C68B /* Pods-HackIllinois: QR.debug.xcconfig */;
+			baseConfigurationReference = 1E915BC9AC31457D94215425BD24466C /* Pods-HackIllinois: QR.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -922,7 +1125,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -930,16 +1133,15 @@
 				PRODUCT_NAME = Pods_HackIllinois__QR;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		85C6B30A4667E1009A314492A68B612B /* Release */ = {
+		BEC9ABA323E1A72CDBA20D8AE952A184 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D436B048B334AE57EAFAC961AE7158C /* SwiftQRCode.xcconfig */;
+			baseConfigurationReference = D0C545FE45B68DAC520F4AD72BE448B3 /* SwiftQRCode.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -998,6 +1200,42 @@
 				PRODUCT_NAME = Pods_HackIllinois__QRUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE1E4BB6A3F20CC86C85B91455EC1BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54CE3C8517A6D165211E433A6C3C68B /* Pods-HackIllinois: QR.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HackIllinois: QR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackIllinois: QR/Pods-HackIllinois: QR.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackIllinois__QR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1079,42 +1317,9 @@
 			};
 			name = Release;
 		};
-		EF61F65A35EA156AD13ED537E782A1BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5179ECBC70CCC8B1C852AE574F6EA4FD /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 071081EB8544487C8F90D678D562AE31 /* Alamofire.xcconfig */;
+			baseConfigurationReference = AE05B609BF4C5D7D7B3EA93E3811682F /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1145,47 +1350,14 @@
 			};
 			name = Debug;
 		};
-		FBB905673D93BDA71649832CEA141DFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D436B048B334AE57EAFAC961AE7158C /* SwiftQRCode.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftQRCode/SwiftQRCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftQRCode/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftQRCode/SwiftQRCode.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftQRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EF3BD53F1B4D8243FBA0AC41D0ABD78 /* Build configuration list for PBXNativeTarget "Pods-HackIllinois: QR" */ = {
+		033B38A811E6E54B02C8CB30C17608FB /* Build configuration list for PBXNativeTarget "JWTDecode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83939006678969EB67DED5AB82FED16A /* Debug */,
-				1ADCDC429C28C5158A6BFCB1DFAFC5E0 /* Release */,
+				745A7BFD43BA0EE7932EF6CECDE4E443 /* Debug */,
+				130DC41068E0EC03F01E21DA6559164D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1208,6 +1380,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3B7104C4E9ECBB08B2BC07A8412EA193 /* Build configuration list for PBXNativeTarget "SwiftQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73794A22A1BFB3DE081E39AF22A2D144 /* Debug */,
+				BEC9ABA323E1A72CDBA20D8AE952A184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1217,29 +1398,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5E83F0C54AA24CDAB899DFB14697ADA2 /* Build configuration list for PBXNativeTarget "Pods-HackIllinois: QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1E4BB6A3F20CC86C85B91455EC1BF2 /* Debug */,
+				A683DEBF61736007D0BA14FC4BA21B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CF63B822D7EF2BF1F9E1B6CFFDAE90 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8D7DFBB124A1D8D040FD6614860FB /* Debug */,
+				7A589344DD18DCFE55E37786B38BFD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		745E68481CA7AC20A090B13C0BCA6029 /* Build configuration list for PBXNativeTarget "Pods-HackIllinois: QRUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C411F5E5A76F7581B284934959272BA2 /* Debug */,
 				E45A5C673133E49300E7D0A57B836868 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93B14ECB6B164F6730B075106F4B849D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF61F65A35EA156AD13ED537E782A1BC /* Debug */,
-				3F79D397B3E0EAFDBE28A9EACA76072F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1A0D3AC403313FCD89A9F0AE1CC7F16 /* Build configuration list for PBXNativeTarget "SwiftQRCode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FBB905673D93BDA71649832CEA141DFB /* Debug */,
-				85C6B30A4667E1009A314492A68B612B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,10 +12,13 @@ import SwiftQRCode
 import Alamofire
 import Foundation
 
-class ScanViewController: UIViewController {
+class ScanViewController: BaseViewController {
     let scanner = QRCode()
-    var login_session:String = ""
-    
+
+    @IBOutlet var add_event: UIButton!
+    @IBAction func addEventButton(_ sender: Any) {
+        print("button clicked")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         print("other view loaded")
@@ -23,17 +26,22 @@ class ScanViewController: UIViewController {
         if preferences.object(forKey: "session") != nil {
             self.login_session = preferences.object(forKey: "session") as! String
         }
+        print(self.check_permissions(key: self.login_session))
+        if self.check_permissions(key: self.login_session) == "ADMIN" {
+            self.add_event.isHidden = false
+            self.add_event.isEnabled = true
+        }
+        else {
+            self.add_event.isHidden = true
+            self.add_event.isEnabled = false
+        }
         scanner.prepareScan(view) { (stringValue) -> () in
             print(stringValue)
             self.scanner.stopScan()
             print(self.login_session)
-
             let headers: HTTPHeaders = [
                 "Authorization": self.login_session
             ]
-//            Alamofire.request("https://api.hackillinois.org/v1/tracking/"+stringValue, headers: headers).responseJSON { response in
-//                print(response)
-//            }
             Alamofire.request("https://api.hackillinois.org/v1/tracking/"+stringValue,
                 headers: headers).validate().responseJSON { response in
                 var message:String = ""

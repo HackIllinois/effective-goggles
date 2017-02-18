@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JWTDecode.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-HackIllinois: QR.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +42,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05DCFCB7CB4AB98C7C524B823F58DB02</key>
+		<key>1E4709768EC3FCE3D3E59EE817CAD0C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6D8BFBA154D42FE04414B6FF924CAB3F</key>
+		<key>734E126F2A1BB2F7F1ACCF523A9A8351</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F819D8CD6F6375CA8EC41410ADD4857</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>931D511373E47C22C4D1F3B3503D7A94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,11 +73,6 @@
 			<true/>
 		</dict>
 		<key>D2D96DB129D16346E2409D76025F3BF5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E5D54D3D95D4EFE2AF8F1898A76F3B0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
