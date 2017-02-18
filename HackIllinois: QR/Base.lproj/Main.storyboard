@@ -60,12 +60,20 @@
                                     <action selector="DoLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ucA-5L-msB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-0S-R5E">
+                                <rect key="frame" x="166" y="84" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="OhU-0G-emJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="AKp-OB-tE5"/>
                             <constraint firstItem="OhU-0G-emJ" firstAttribute="trailing" secondItem="Yol-Ws-fKc" secondAttribute="trailing" id="Din-mW-xe4"/>
+                            <constraint firstItem="2k5-0S-R5E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="IyN-41-ISk"/>
                             <constraint firstItem="FWv-Br-zeN" firstAttribute="centerX" secondItem="Yol-Ws-fKc" secondAttribute="centerX" id="MUq-Hw-rOr"/>
+                            <constraint firstItem="2k5-0S-R5E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OkL-wq-0Jx"/>
                             <constraint firstItem="Yol-Ws-fKc" firstAttribute="top" secondItem="OhU-0G-emJ" secondAttribute="bottom" constant="10" id="RyJ-c8-CiK"/>
                             <constraint firstItem="OhU-0G-emJ" firstAttribute="leading" secondItem="Yol-Ws-fKc" secondAttribute="leading" id="nRF-sb-GSi"/>
                             <constraint firstItem="FWv-Br-zeN" firstAttribute="top" secondItem="Yol-Ws-fKc" secondAttribute="bottom" constant="24" id="sOa-Rz-yeJ"/>
@@ -73,8 +81,15 @@
                             <constraint firstItem="OhU-0G-emJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="u8L-Er-YST"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="5R8-3I-H5U"/>
+                    <navigationItem key="navigationItem" id="5R8-3I-H5U">
+                        <barButtonItem key="rightBarButtonItem" title="Sign out" id="1y2-Rz-K4p">
+                            <connections>
+                                <action selector="signOutButton:" destination="BYZ-38-t0r" id="Ucs-7k-WX4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="acctInfo" destination="2k5-0S-R5E" id="Sbn-mn-bPS"/>
                         <outlet property="email_input" destination="OhU-0G-emJ" id="dTM-Ny-Aq4"/>
                         <outlet property="login_button" destination="FWv-Br-zeN" id="Dlg-8g-llq"/>
                         <outlet property="password_input" destination="Yol-Ws-fKc" id="Opa-cR-l3K"/>
@@ -100,6 +115,11 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="xYJ-WG-hPI">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="8fE-HM-70x">
+                            <connections>
+                                <action selector="cancelButton:" destination="QsI-mm-d63" id="E5A-gp-puX"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="I8X-Jc-Lz3">
                             <connections>
                                 <action selector="addEventButton:" destination="QsI-mm-d63" id="ZSE-U6-xBH"/>

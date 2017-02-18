@@ -13,43 +13,43 @@ import Alamofire
 import Foundation
 
 class ScanViewController: BaseViewController {
+    // QR Scanner object
     let scanner = QRCode()
 
+    // IBOutlet and IBAction
     @IBOutlet var add_event: UIBarButtonItem!
-//    @IBOutlet var add_event: UIButton!
-//    @IBAction func addEventButton(_ sender: Any) {
-//        print("button clicked")
-//        if self.check_permissions(key: self.login_session) != "ADMIN" {
-//            return
-//        }
-//        
-//    }
     @IBAction func addEventButton(_ sender: Any) {
         print("button clicked")
         if self.check_permissions(key: self.login_session) != "ADMIN" {
             return
         }
     }
+    @IBAction func cancelButton(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("other view loaded")
-        let preferences = UserDefaults.standard
-        if preferences.object(forKey: "session") != nil {
-            self.login_session = preferences.object(forKey: "session") as! String
+        if let key = self.get_key() {
+            self.login_session = key
         }
-        print(self.check_permissions(key: self.login_session))
+        else {
+            self.dismiss(animated: true)
+        }
         if self.check_permissions(key: self.login_session) == "ADMIN" {
-//            self.add_event.isHidden = false
             self.add_event.isEnabled = true
         }
         else {
-//            self.add_event.isHidden = true
             self.add_event.isEnabled = false
         }
+        // Prepare scanner object
         scanner.prepareScan(view) { (stringValue) -> () in
             print(stringValue)
+            // Kill the scanner
             self.scanner.stopScan()
             print(self.login_session)
+            
+            // Set up POST request
             let headers: HTTPHeaders = [
                 "Authorization": self.login_session
             ]
@@ -65,6 +65,7 @@ class ScanViewController: BaseViewController {
                         message = "Attendee has already participated"
                         title = "ERROR!"
                 }
+                // Alert user of POST result
                 let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
                 let okayAction = UIAlertAction(title: "Okay", style: .default) { [weak self] (_) in
                     self?.scanner.startScan()
@@ -76,6 +77,7 @@ class ScanViewController: BaseViewController {
                 }
             }
         }
+        // Set bounds and start scanning
         scanner.scanFrame = view.bounds
         scanner.startScan()
     }

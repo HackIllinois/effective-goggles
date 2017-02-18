@@ -11,29 +11,33 @@ import Alamofire
 import SwiftyJSON
 
 class AddViewController: BaseViewController {
+    // IBOutlets
     @IBOutlet var nameField: UITextField!
     @IBOutlet var durationField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let preferences = UserDefaults.standard
-        if preferences.object(forKey: "session") != nil
-        {
-            self.login_session = preferences.object(forKey: "session") as! String
+        if let key = self.get_key() {
+            self.login_session = key
+        }
+        else {
+            self.dismiss(animated: true)
         }
     }
   
     @IBAction func cancelButton(_ sender: Any) {
-        print("cancel")
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func saveButton(_ sender: Any) {
-        print("save")
+        // Check for permissions again
         let role = self.check_permissions(key: self.login_session)
-        print(role)
         if role != "ADMIN" {
+            // Can't use `new event`
             self.dismiss(animated: true)
             return
         }
+        
+        // Set up POST request
         let headers: HTTPHeaders = [
             "Authorization": self.login_session
         ]
@@ -50,7 +54,8 @@ class AddViewController: BaseViewController {
                             case .success:
                                 self?.dismiss(animated: true)
                             case .failure:
-//                                self?.displayAlert(title: "ERROR!", message: "Could not create new event")
+                                // TODO: Error handling
+                                // self?.displayAlert(title: "ERROR!", message: "Could not create new event")
                                 self?.dismiss(animated: true)
                             }
         }
