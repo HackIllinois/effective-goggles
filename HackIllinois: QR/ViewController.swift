@@ -20,17 +20,12 @@ class BaseViewController: UIViewController {
     func check_permissions(key: String) -> String {
         let jwt: JWT = try! decode(jwt: key)
         let json = JSON(jwt.body)
-        let role = json["roles"][0]["role"].rawString()
-        if (role == "STAFF" || role == "VOLUNTEER") {
-            return "SCAN"
+        let roles = json["roles"].arrayValue.map { (role) -> String in
+            return role.dictionaryValue["role"]!.stringValue
         }
-        else if (role == "ADMIN")
-        {
-            return "ADMIN"
-        }
-        else {
-            return "NONE"
-        }
+        if roles.contains("ADMIN") { return "ADMIN" }
+        else if roles.contains("STAFF") || roles.contains("VOLUNTEER") { return "SCAN" }
+        else { return "NONE" }
     }
     
     func get_email(key: String) -> String {
