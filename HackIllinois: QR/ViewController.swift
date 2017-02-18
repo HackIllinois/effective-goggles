@@ -63,14 +63,15 @@ class ViewController: BaseViewController {
         let image = UIImage(named: "hackillinois")
         imageView.image = image
         navigationItem.titleView = imageView
-        email_input.text = "yasha.mostofi+vol@gmail.com"
-        password_input.text = "qqqqqqqq"
+//        email_input.text = "yasha.mostofi+vol@gmail.com"
+//        password_input.text = "qqqqqqqq"
+        email_input.text = "yasha.mostofi@hackillinois.org"
         
         // TODO: make it so you don't have to click the log in each time
     }
     
     func logIn(email: String, password: String) {
-        if email == "" && password == "" {
+        if email == "" || password == "" {
             let preferences = UserDefaults.standard
             if preferences.object(forKey: "session") != nil
             {

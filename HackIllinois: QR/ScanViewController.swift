@@ -15,9 +15,20 @@ import Foundation
 class ScanViewController: BaseViewController {
     let scanner = QRCode()
 
-    @IBOutlet var add_event: UIButton!
+    @IBOutlet var add_event: UIBarButtonItem!
+//    @IBOutlet var add_event: UIButton!
+//    @IBAction func addEventButton(_ sender: Any) {
+//        print("button clicked")
+//        if self.check_permissions(key: self.login_session) != "ADMIN" {
+//            return
+//        }
+//        
+//    }
     @IBAction func addEventButton(_ sender: Any) {
         print("button clicked")
+        if self.check_permissions(key: self.login_session) != "ADMIN" {
+            return
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,11 +39,11 @@ class ScanViewController: BaseViewController {
         }
         print(self.check_permissions(key: self.login_session))
         if self.check_permissions(key: self.login_session) == "ADMIN" {
-            self.add_event.isHidden = false
+//            self.add_event.isHidden = false
             self.add_event.isEnabled = true
         }
         else {
-            self.add_event.isHidden = true
+//            self.add_event.isHidden = true
             self.add_event.isEnabled = false
         }
         scanner.prepareScan(view) { (stringValue) -> () in
