@@ -1,10 +1,11 @@
-//
-//  ViewController.swift
-//  HackIllinois: QR
-//
-//  Created by Yasha Mostofi on 2/12/17.
-//  Copyright © 2017 Yasha Mostofi. All rights reserved.
-//
+/**
+ * Copyright © 2017, Yasha Mostofi
+ *
+ * This is open source software, released under the University of
+ * Illinois/NCSA Open Source License. You should have received a copy of
+ * this license in a file with the distribution.
+ **/
+
 
 import UIKit
 import AVFoundation
